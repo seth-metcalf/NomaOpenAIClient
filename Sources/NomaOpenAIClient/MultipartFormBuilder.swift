@@ -2,8 +2,7 @@
 //  File.swift
 //  
 //
-//  Created by Alfian Losari on 21/11/23.
-//
+//  Created by Seth Metcalf on 2026-06-16.
 
 import Foundation
 

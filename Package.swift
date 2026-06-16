@@ -4,14 +4,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "XCAOpenAIClient",
+    name: "NomaOpenAIClient",
     platforms: [
         .iOS(.v17), .macOS(.v14), .tvOS(.v17), .watchOS(.v10), .visionOS(.v1)
     ],
     products: [
         .library(
-            name: "XCAOpenAIClient",
-            targets: ["XCAOpenAIClient"]),
+            name: "NomaOpenAIClient",
+            targets: ["NomaOpenAIClient"]),
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-openapi-generator", .upToNextMinor(from: "1.0.0-alpha.1")),
@@ -22,7 +22,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "XCAOpenAIClient",
+            name: "NomaOpenAIClient",
             dependencies: [
                 .product(
                     name: "OpenAPIRuntime",
